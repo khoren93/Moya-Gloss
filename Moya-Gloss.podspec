@@ -15,13 +15,13 @@ Pod::Spec.new do |s|
     [Moya](https://github.com/Moya/Moya) for fabulous JSON serialization.
     [RxSwift](https://github.com/ReactiveX/RxSwift/) and [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa/) bindings also included.
     Instructions on how to use it are in
-    [the README](https://github.com/spxrogers/Moya-Gloss).
+    [the README](https://github.com/khoren93/Moya-Gloss).
   EOS
 
-  s.homepage         = "https://github.com/spxrogers/Moya-Gloss"
+  s.homepage         = "https://github.com/khoren93/Moya-Gloss"
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "Steven Rogers" => "me@srogers.net" }
-  s.source           = { :git => "https://github.com/spxrogers/Moya-Gloss.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/khoren93/Moya-Gloss.git", :tag => s.version.to_s }
   s.social_media_url = "https://twitter.com/spxrogers"
 
   s.ios.deployment_target = '9.0'
